@@ -25,7 +25,7 @@ You can easily install Mirage by running the following one-liner in your termina
 
 ```bash
 curl -sSL [https://raw.githubusercontent.com/openverselabs/mirage/main/install.sh](https://raw.githubusercontent.com/openverselabs/mirage/main/install.sh) | bash
-
+```
 
 ### Manual Install (Go required)
 
