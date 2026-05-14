@@ -24,7 +24,7 @@
 You can easily install Mirage by running the following one-liner in your terminal. This script will download the source, build it, and move it to your system path.
 
 ```bash
-curl -sSL [https://raw.githubusercontent.com/openverselabs/mirage/main/install.sh](https://raw.githubusercontent.com/openverselabs/mirage/main/install.sh) | bash
+curl -sSL https://raw.githubusercontent.com/openverselabs/mirage/main/install.sh | bash
 ```
 
 ### Manual Install (Go required)
@@ -32,7 +32,7 @@ curl -sSL [https://raw.githubusercontent.com/openverselabs/mirage/main/install.s
 If you prefer to build it yourself:
 
 ```bash
-git clone [https://github.com/openverselabs/mirage.git](https://github.com/openverselabs/mirage.git)
+git clone https://github.com/openverselabs/mirage.git
 cd mirage
 go build -ldflags="-s -w" -o mirage main.go
 sudo mv mirage /usr/local/bin/
