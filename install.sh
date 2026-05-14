@@ -42,4 +42,4 @@ rm -rf "$TMP_DIR"
 
 echo -e "\n${GREEN}[✔] Installation successful!${NC}"
 echo -e "You can now run ${CYAN}mirage${NC} from anywhere in your terminal."
-echo -e "Try it: ${CYAN}echo \"github.com\" | mirage${NC}"
+echo -e "Try it: ${CYAN}echo \"www.github.com\" | mirage${NC}"
